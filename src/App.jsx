@@ -1,8 +1,7 @@
-function App() {
-
+const App = () => {
   return (
     <>
-      ahshdahdjas
+      <div>App</div>
     </>
   )
 }
