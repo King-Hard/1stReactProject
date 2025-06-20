@@ -1,8 +1,13 @@
-import React from 'react'
+import {Outlet} from 'react-router-dom'
+import Header from '../Partial/Header'
 
 const RootLayout = () => {
   return (
-    <div>RootLayout</div>
+    <>
+      <Header />
+        <Outlet />
+    
+    </>
   )
 }
 
