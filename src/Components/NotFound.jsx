@@ -7,9 +7,9 @@ const NotFound = () => {
             <div>
                 <p className='text-center text-7xl font-semibold'>404</p>
             </div>
-            <div className='text-3xl'>
+            <div className='text-2xl'>
                 <span>File not found! Back to </span>
-                <Link className='text-blue-700 hover:underline' to='/'>Home Page</Link>
+                <Link className='text-blue-700 hover:underline underline-offset-1' to='/'>Home Page</Link>
             </div>
         </div>
     </div>
